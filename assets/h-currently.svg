@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="80" viewBox="0 0 900 80">
+<style>text{font-family:'Segoe Print','Bradley Hand','Chalkboard SE','Marker Felt','Comic Sans MS',cursive}.draw{stroke-dasharray:1;stroke-dashoffset:1;animation:d 6s ease-in-out infinite}@keyframes d{0%{stroke-dashoffset:1}30%,85%{stroke-dashoffset:0}100%{stroke-dashoffset:1}}</style>
+<defs>
+<pattern id="g" width="20" height="20" patternUnits="userSpaceOnUse">
+<path d="M20 0H0V20" fill="none" stroke="#d4e4f2" stroke-width="1"/></pattern>
+<pattern id="G" width="100" height="100" patternUnits="userSpaceOnUse">
+<path d="M100 0H0V100" fill="none" stroke="#bcd3e8" stroke-width="1.4"/></pattern>
+</defs>
+<rect width="900" height="80" fill="#fdfdf6"/>
+<rect width="900" height="80" fill="url(#g)"/>
+<rect width="900" height="80" fill="url(#G)"/>
+
+<rect x="24" y="14" width="160" height="44" rx="6" fill="#f8bbd0" stroke="#00000022"/>
+<rect x="24" y="14" width="160" height="8" rx="4" fill="#ffffff55"/>
+<text x="104.0" y="46" font-size="26" fill="#2f3a4a" text-anchor="middle" textLength="120" lengthAdjust="spacingAndGlyphs">currently</text>
+<path d="M200 60 C 360 55, 500 66, 880 58" fill="none" stroke="#666" stroke-width="2.2" stroke-linecap="round" class="draw" pathLength="1"/>
+
+</svg>

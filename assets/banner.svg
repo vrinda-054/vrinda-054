@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="320" viewBox="0 0 900 320">
+<style>text{font-family:'Segoe Print','Bradley Hand','Chalkboard SE','Marker Felt','Comic Sans MS',cursive}
+.draw{stroke-dasharray:1;stroke-dashoffset:1;animation:d 8s ease-in-out infinite}
+.draw2{stroke-dasharray:1;stroke-dashoffset:1;animation:d 8s ease-in-out infinite;animation-delay:.6s}
+.curve{stroke-dasharray:300;stroke-dashoffset:300;animation:c 6s ease-in-out infinite}
+@keyframes d{0%{stroke-dashoffset:1}20%,85%{stroke-dashoffset:0}95%,100%{stroke-dashoffset:1}}
+@keyframes c{0%{stroke-dashoffset:300}45%,85%{stroke-dashoffset:0}100%{stroke-dashoffset:300}}
+</style>
+<defs>
+<pattern id="g" width="20" height="20" patternUnits="userSpaceOnUse">
+<path d="M20 0H0V20" fill="none" stroke="#d4e4f2" stroke-width="1"/></pattern>
+<pattern id="G" width="100" height="100" patternUnits="userSpaceOnUse">
+<path d="M100 0H0V100" fill="none" stroke="#bcd3e8" stroke-width="1.4"/></pattern>
+</defs>
+<rect width="900" height="320" fill="#fdfdf6"/>
+<rect width="900" height="320" fill="url(#g)"/>
+<rect width="900" height="320" fill="url(#G)"/>
+
+<line x1="70" y1="0" x2="70" y2="320" stroke="#f1a5a5" stroke-width="2"/>
+<g fill="#ecece2" stroke="#cfcfc2" stroke-width="2">
+<circle cx="32" cy="55" r="9"/><circle cx="32" cy="160" r="9"/><circle cx="32" cy="265" r="9"/></g>
+
+<rect x="296" y="66" width="136" height="46" fill="#fff59d" opacity=".85">
+<animate attributeName="width" values="0;136;136;0;0" keyTimes="0;.12;.85;.93;1" dur="8s" repeatCount="indefinite"/></rect>
+<text x="100" y="105" font-size="46" fill="#2f3a4a" textLength="330" lengthAdjust="spacingAndGlyphs">Hi, I'm Vrinda</text>
+<path d="M100 122 C 160 114, 230 130, 430 118" fill="none" stroke="#555" stroke-width="2.4" stroke-linecap="round" class="draw" pathLength="1"/>
+
+<clipPath id="c"><rect x="100" y="140" width="0" height="44">
+<animate attributeName="width" values="0;540;540;0;0" keyTimes="0;.45;.85;.92;1" dur="8s" repeatCount="indefinite"/></rect></clipPath>
+<text x="100" y="172" font-size="24" fill="#4a5a70" textLength="540" lengthAdjust="spacingAndGlyphs" clip-path="url(#c)">software engineering  /  ML for SE  /  learning by building</text>
+<rect x="100" y="147" width="2.5" height="28" fill="#2f3a4a">
+<animate attributeName="x" values="100;640;640;100;100" keyTimes="0;.45;.85;.92;1" dur="8s" repeatCount="indefinite"/></rect>
+
+<g transform="translate(100 238)">
+<ellipse cx="55" cy="-8" rx="62" ry="22" fill="none" stroke="#e57373" stroke-width="2" class="draw2" pathLength="1"/>
+<text x="0" y="0" font-size="22" fill="#2f3a4a">O(n log n)</text>
+<text x="150" y="2" font-size="17" fill="#7a8794">&#8592; margin note: try this first</text></g>
+
+<g transform="translate(680 130)">
+<path d="M10 10 V140 H190" fill="none" stroke="#2f3a4a" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M10 22 C 50 24, 60 110, 100 118 S 160 124, 188 126" fill="none" stroke="#e57373" stroke-width="2.8" stroke-linecap="round" class="curve"/>
+<text x="22" y="30" font-size="16" fill="#2f3a4a">loss</text>
+<text x="120" y="160" font-size="16" fill="#2f3a4a">epochs</text>
+<text x="108" y="100" font-size="15" fill="#7a8794">(hopefully)</text></g>
+
+<g transform="translate(698 18) rotate(3)">
+<rect width="172" height="68" fill="#fff176" stroke="#e6d34f"/>
+<path d="M172 50 L154 68 L172 68 Z" fill="#e6d34f"/>
+<text x="14" y="30" font-size="18" fill="#2f3a4a">IIIT Kottayam</text>
+<text x="14" y="54" font-size="15" fill="#6b6b3a">B.Tech, class of 2028</text></g>
+
+<rect x="884" y="70" width="16" height="46" rx="3" fill="#f8bbd0"/>
+<rect x="884" y="126" width="16" height="46" rx="3" fill="#bbdefb"/>
+<rect x="884" y="182" width="16" height="46" rx="3" fill="#c8e6c9"/>
+
+</svg>

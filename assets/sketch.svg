@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="200" viewBox="0 0 240 200">
+<style>text{font-family:'Segoe Print','Bradley Hand','Chalkboard SE','Marker Felt','Comic Sans MS',cursive}.a,.b{stroke-dasharray:320;stroke-dashoffset:320;animation:c 6s ease-in-out infinite}.b{animation-delay:.5s}@keyframes c{0%{stroke-dashoffset:320}45%,85%{stroke-dashoffset:0}100%{stroke-dashoffset:320}}</style>
+<defs>
+<pattern id="g" width="20" height="20" patternUnits="userSpaceOnUse">
+<path d="M20 0H0V20" fill="none" stroke="#d4e4f2" stroke-width="1"/></pattern>
+<pattern id="G" width="100" height="100" patternUnits="userSpaceOnUse">
+<path d="M100 0H0V100" fill="none" stroke="#bcd3e8" stroke-width="1.4"/></pattern>
+</defs>
+<rect width="240" height="200" fill="#fdfdf6"/>
+<rect width="240" height="200" fill="url(#g)"/>
+<rect width="240" height="200" fill="url(#G)"/>
+
+<g transform="translate(10 10)">
+<path d="M14 10 V150 H210" fill="none" stroke="#2f3a4a" stroke-width="2" stroke-linecap="round"/>
+<path d="M14 120 C 60 60, 90 40, 120 36 S 180 30, 208 28" fill="none" stroke="#e57373" stroke-width="2.6" stroke-linecap="round" class="a"/>
+<path d="M14 118 C 60 70, 90 62, 120 78 S 170 108, 208 128" fill="none" stroke="#5b7fbf" stroke-width="2.6" stroke-linecap="round" class="b"/>
+<text x="150" y="22" font-size="14" fill="#c24b4b">train</text>
+<text x="170" y="124" font-size="14" fill="#3e5f9f">val</text>
+<text x="40" y="172" font-size="14" fill="#7a8794">overfit? probably.</text>
+<path d="M160 160 C 170 150, 175 140, 178 134" fill="none" stroke="#7a8794" stroke-width="1.6" marker-end="url(#ar)"/>
+</g>
+<defs><marker id="ar" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8" fill="none" stroke="#7a8794"/></marker></defs>
+
+</svg>

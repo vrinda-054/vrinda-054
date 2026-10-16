@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="140" viewBox="0 0 900 140">
+<style>text{font-family:'Segoe Print','Bradley Hand','Chalkboard SE','Marker Felt','Comic Sans MS',cursive}.draw{stroke-dasharray:1;stroke-dashoffset:1;animation:d 7s linear infinite}@keyframes d{0%{stroke-dashoffset:1}60%,90%{stroke-dashoffset:0}100%{stroke-dashoffset:1}}</style>
+<defs>
+<pattern id="g" width="20" height="20" patternUnits="userSpaceOnUse">
+<path d="M20 0H0V20" fill="none" stroke="#d4e4f2" stroke-width="1"/></pattern>
+<pattern id="G" width="100" height="100" patternUnits="userSpaceOnUse">
+<path d="M100 0H0V100" fill="none" stroke="#bcd3e8" stroke-width="1.4"/></pattern>
+</defs>
+<rect width="900" height="140" fill="#fdfdf6"/>
+<rect width="900" height="140" fill="url(#g)"/>
+<rect width="900" height="140" fill="url(#G)"/>
+
+<line x1="70" y1="0" x2="70" y2="140" stroke="#f1a5a5" stroke-width="2"/>
+<text x="100" y="62" font-size="30" fill="#2f3a4a">end of page 1  -  more experiments soon</text>
+<path d="M100 84 L800 84" stroke="#666" stroke-width="2.2" stroke-linecap="round" class="draw" pathLength="1" fill="none"/>
+<g><polygon points="0,0 -26,-9 -26,9" fill="#444"/><rect x="-62" y="-9" width="36" height="18" fill="#fbc02d"/><rect x="-74" y="-9" width="12" height="18" fill="#f48fb1"/>
+<animateTransform attributeName="transform" type="translate" values="100 84;800 84;800 84;100 84" keyTimes="0;.6;.9;1" dur="7s" repeatCount="indefinite"/></g>
+<text x="100" y="124" font-size="16" fill="#7a8794">// keep breaking things, keep fixing them</text>
+
+</svg>

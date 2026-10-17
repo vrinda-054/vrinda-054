@@ -1,13 +1,5 @@
 <p align="center">
-<<<<<<< Updated upstream
-  <img src="assets/banner.svg" alt="Hi, I am Vrinda: always learning, exploring ML and full stack" width="100%"/>
-=======
-<<<<<<< HEAD
   <img src="assets/banner.svg" alt="Hi, I am Vrinda: full stack, machine learning, open source, always learning" width="100%"/>
-=======
-  <img src="assets/banner.svg" alt="Hi, I am Vrinda: always learning, exploring ML and full stack" width="100%"/>
->>>>>>> 05d8b212c0d08e7392fff4a97e1289084cd5f0c9
->>>>>>> Stashed changes
 </p>
 
 ### about

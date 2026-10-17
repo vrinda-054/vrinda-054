@@ -1,22 +1,12 @@
 <p align="center">
-  <img src="assets/banner.svg" alt="Hi, I'm Vrinda: software engineering / ML for SE / learning by building" width="100%"/>
+  <img src="assets/banner.svg" alt="Hi, I am Vrinda: always learning, exploring ML and full stack" width="100%"/>
 </p>
 
-<img src="assets/h-about.svg" alt="about me" width="100%"/>
+### about
 
-<img align="right" src="assets/sketch.svg" alt="sketch of train and validation loss curves" width="220"/>
+B.Tech CSE student at **IIIT Kottayam**. I work across ML and full stack, and like building things end to end. Most of what I know, I picked up by building and breaking things. Open source contributor, always learning.
 
-B.Tech CSE student at **IIIT Kottayam**. I like software engineering and using ML on code: smell detection, refactoring, and the research side of it. Most of what I know, I picked up by building things and breaking them. Open source contributor, still learning the ropes.
-
-<br clear="right"/>
-
-<img src="assets/h-currently.svg" alt="currently" width="100%"/>
-
-**building:** fault-tolerant data pipelines  
-**exploring:** ML for software engineering  
-**learning:** whatever the next project needs
-
-<img src="assets/h-tools.svg" alt="tools used so far" width="100%"/>
+### tools
 
 <p>
 <img src="https://img.shields.io/badge/C-FFF59D?style=for-the-badge&logo=c&logoColor=black" alt="C"/>
@@ -47,10 +37,6 @@ B.Tech CSE student at **IIIT Kottayam**. I like software engineering and using M
 <img src="https://img.shields.io/badge/Linux-F8BBD0?style=for-the-badge&logo=linux&logoColor=black" alt="Linux"/>
 </p>
 
-<img src="assets/h-hello.svg" alt="say hello" width="100%"/>
+### say hello
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-BBDEFB?style=for-the-badge&logo=linkedin&logoColor=black)](https://www.linkedin.com/in/YOUR-HANDLE) [![Email](https://img.shields.io/badge/Email-F8BBD0?style=for-the-badge&logo=gmail&logoColor=black)](mailto:vrindarj2006@gmail.com)
-
-<p align="center">
-  <img src="assets/footer.svg" alt="end of page 1, more experiments soon" width="100%"/>
-</p>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-BBDEFB?style=for-the-badge&logo=linkedin&logoColor=black)](https://www.linkedin.com/in/vrinda-r-j-5a4300326/) [![Email](https://img.shields.io/badge/Email-F8BBD0?style=for-the-badge&logo=gmail&logoColor=black)](mailto:vrindarj2006@gmail.com)
